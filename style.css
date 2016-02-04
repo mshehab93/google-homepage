@@ -1,0 +1,91 @@
+body {
+	background: white;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+}
+
+.signin {
+	color: white;
+	background-color: 
+}
+
+li {
+	float: left;
+}
+
+a {
+	display: block;
+	padding: 8px;
+	margin: 2px;
+	color: #5e5e5e;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+.button1, .button2 {
+	font-weight: bold;
+	display: inline-block;
+	background-color: #eeeeee;
+	text-decoration: none;
+	padding: 5px;
+	border: none;
+}
+
+.button1:hover .button2:hover {
+	background-color: #f2f2f2;
+	color: black;
+}
+
+.nav:hover {
+	text-decoration: underline;
+}
+
+.topnav {
+	float: right;
+	list-style-type: none;
+}
+
+.botnav {
+	list-style-type: none;
+	position: fixed;
+	bottom: 0;
+	background: #eeeeee;
+	width: 100%;
+	padding: 0 5px;
+	border-top: 1px solid #d8d6d6;
+	margin: 0;
+}
+
+.botright {
+	float: right;
+	margin: 3px;
+	margin-right: 20px;
+}
+
+.center {
+	display: inline-block;
+	text-align: center;
+	background-color: transparent;
+	margin: 200px 500px;
+}
+
+.text {
+	margin: 4px auto;
+	padding: 2px 2px;
+}
+
+.box {
+	display: inline-block;
+	background-color: #4683ea;
+	color: white;
+	font-weight: 700;
+}
+
+.box:hover {
+	text-decoration: none;
+}
